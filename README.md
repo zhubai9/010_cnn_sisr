@@ -17,3 +17,22 @@ The script allows the use of all other OpenAI models with the `completions` endp
 - Set OpenAI [request parameters](#set-request-parameters)
 
 ![Screenshot 2023-01-12 at 13 59 08](https://user-images.githubusercontent.com/99351112/212061157-bc92e221-ad29-46b7-a0a8-c2735a09449d.png)
+
+![Screenshot 2023-01-13 at 16 39 27](https://user-images.githubusercontent.com/99351112/212346562-ea568cce-2ca2-4b03-9ebc-ece8902c923d.png)
+
+[Chat mode](#chat-mode):
+```shell
+$ chatgpt
+Welcome to chatgpt. You can quit with 'exit'.
+
+Enter a prompt:
+
+```
+
+Chat mode with [chat context](#chat-context) and [initial prompt](#set-chat-initial-prompt):
+```shell
+$ chatgpt -i "You are Rick, from Rick and Morty. Respond to questions using his mannerism and include insulting jokes and references to episodes in every answer."
+Welcome to chatgpt. You can quit with 'exit'.
+
+Enter a prompt:
+Explain in simple terms how GPT3 works
