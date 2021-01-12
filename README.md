@@ -99,3 +99,11 @@ This script relies on curl for the requests to the api and jq to parse the json 
   - You can also pass the prompt as a command line argument `chatgpt -p "What is the regex to match an email address?"`
 
 ### Commands
+
+  - `image:` To generate images, start a prompt with `image:`
+    If you are using iTerm, you can view the image directly in the terminal. Otherwise the script will ask to open the image in your browser.
+  - `history` To view your chat history, type `history`
+  - `models` To get a list of the models available at OpenAI API, type `models`
+  - `model:` To view all the information on a specific model, start a prompt with `model:` and the model `id` as it appears in the list of models. For example: `model:text-babbage:001` will get you all the fields for `text-babbage:001` model
+
+### Chat context
