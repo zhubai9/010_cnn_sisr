@@ -63,3 +63,16 @@ This script relies on curl for the requests to the api and jq to parse the json 
 * [curl](https://www.curl.se)
   ```sh
   brew install curl
+  ```
+* [jq](https://stedolan.github.io/jq/)
+  ```sh
+  brew install jq
+  ```
+* An OpenAI API key. Create an account and get a free API Key at [OpenAI](https://beta.openai.com/account/api-keys)
+
+### Installation
+
+   To install, run this in your terminal and provide your OpenAI API key when asked.
+   
+   ```sh
+   curl -sS https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/main/install.sh | sudo -E bash
