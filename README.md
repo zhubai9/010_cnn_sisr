@@ -51,3 +51,15 @@ Using [script parameters](#script-parameters):
 ```shell
 chatgpt -p "What is the regex to match an email address?"
 ```
+
+
+
+## Getting Started
+
+### Prerequisites
+
+This script relies on curl for the requests to the api and jq to parse the json response.
+
+* [curl](https://www.curl.se)
+  ```sh
+  brew install curl
