@@ -123,3 +123,15 @@ This script relies on curl for the requests to the api and jq to parse the json 
 ### Set request parameters
 
   - To set request parameters you can start the script like this: `chatgpt --temperature 0.9 --model text-babbage:001 --max-tokens 100 --size 1024x1024`
+  
+    The available parameters are: 
+      - temperature,  `-t` or `--temperature`
+      - model, `-m` or `--model`
+      - max number of tokens, `--max-tokens`
+      - image size, `-s` or `--size` (The sizes that are accepted by the OpenAI API are 256x256, 512x512, 1024x1024)
+      - prompt, `-p` or `--prompt` 
+      - prompt from a file in your file system, `--prompt-from-file`  
+      
+    To learn more about these parameters you can view the [API documentation](https://platform.openai.com/docs/api-reference/completions/create)
+    
+    
