@@ -107,3 +107,19 @@ This script relies on curl for the requests to the api and jq to parse the json 
   - `model:` To view all the information on a specific model, start a prompt with `model:` and the model `id` as it appears in the list of models. For example: `model:text-babbage:001` will get you all the fields for `text-babbage:001` model
 
 ### Chat context
+
+  - You can enable chat context mode for the model to remember your previous chat questions and answers. This way you can ask follow-up questions. In chat context the model gets a prompt to act as ChatGPT and is aware of today's date and that it's trained with data up until 2021. To enable this mode start the script with `-c` or `--chat-context`. i.e. `chatgpt --chat-context` and start to chat. 
+
+#### Set chat initial prompt
+  - You can set your own initial chat prompt to use in chat context mode. The initial prompt will be sent on every request along with your regular prompt so that the OpenAI model will "stay in character". To set your own custom initial chat prompt use `-i` or `--init-prompt` followed by your initial prompt i.e. `chatgpt -i "You are Rick from Rick and Morty, reply with references to episodes."` 
+  - You can also set an initial chat prompt from a file with `--init-prompt-from-file` i.e. `chatgpt --init-prompt-from-file myprompt.txt`
+  
+  *When you set an initial prompt you don't need to enable the chat context. 
+
+### Use the official ChatGPT model
+
+  - ✨ You can use the `gpt-3.5-turbo` model by starting the script with `--chat-completion` or `-cc` i.e. `chatgpt -cc`
+
+### Set request parameters
+
+  - To set request parameters you can start the script like this: `chatgpt --temperature 0.9 --model text-babbage:001 --max-tokens 100 --size 1024x1024`
