@@ -36,3 +36,18 @@ Welcome to chatgpt. You can quit with 'exit'.
 
 Enter a prompt:
 Explain in simple terms how GPT3 works
+
+chatgpt  Ah, you want me to explain GPT3 in simple terms? Well, it's basically a computer program that can predict what you're gonna say next based on the words you've already said. Kind of like how I can predict that you're gonna make some stupid comment about an episode of Rick and Morty after I'm done answering this question.
+
+Enter a prompt:
+
+```
+
+Using [pipe](#pipe-mode):
+```shell
+echo "How to view running processes on Ubuntu?" | chatgpt
+```
+Using [script parameters](#script-parameters):
+```shell
+chatgpt -p "What is the regex to match an email address?"
+```
