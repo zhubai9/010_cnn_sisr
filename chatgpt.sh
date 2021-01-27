@@ -1,1 +1,2 @@
-#!/bi
+#!/bin/bash
+GLOBIGNORE="*
