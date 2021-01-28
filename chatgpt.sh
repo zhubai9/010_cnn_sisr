@@ -1,2 +1,4 @@
 #!/bin/bash
-GLOBIGNORE="*
+GLOBIGNORE="*"
+
+CHAT_INIT_P
