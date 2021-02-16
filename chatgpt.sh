@@ -1,4 +1,4 @@
 #!/bin/bash
 GLOBIGNORE="*"
 
-CHAT_INIT_PROMPT="You are
+CHAT_INIT_PROMPT="You are ChatGPT, a
