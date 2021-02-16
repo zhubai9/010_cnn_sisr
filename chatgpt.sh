@@ -1,4 +1,4 @@
 #!/bin/bash
 GLOBIGNORE="*"
 
-CHAT_INIT_PROMPT="You are ChatGPT, a Large Lang
+CHAT_INIT_PROMPT="You are ChatGPT, a Large Language Model train
