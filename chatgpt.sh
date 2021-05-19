@@ -5,4 +5,4 @@ CHAT_INIT_PROMPT="You are ChatGPT, a Large Language Model trained by OpenAI. You
 
 SYSTEM_PROMPT="You are ChatGPT, a large language model trained by OpenAI. Answer as concisely as possible. Current date: $(date +%d/%m/%Y). Knowledge cutoff: 9/1/2021."
 
-CHATGPT_CY
+CHATGPT_CYAN_LABEL
