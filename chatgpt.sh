@@ -7,4 +7,4 @@ SYSTEM_PROMPT="You are ChatGPT, a large language model trained by OpenAI. Answer
 
 CHATGPT_CYAN_LABEL="\n\033[36mchatgpt \033[0m"
 
-# error han
+# error handling function
