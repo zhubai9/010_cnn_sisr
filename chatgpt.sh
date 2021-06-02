@@ -10,4 +10,5 @@ CHATGPT_CYAN_LABEL="\n\033[36mchatgpt \033[0m"
 # error handling function
 # $1 should be the response body
 handle_error() {
-	if echo "$1" | jq -e '.error' >/dev/null; t
+	if echo "$1" | jq -e '.error' >/dev/null; then
+		echo -e "Y
