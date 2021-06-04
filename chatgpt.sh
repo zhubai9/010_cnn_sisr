@@ -11,4 +11,4 @@ CHATGPT_CYAN_LABEL="\n\033[36mchatgpt \033[0m"
 # $1 should be the response body
 handle_error() {
 	if echo "$1" | jq -e '.error' >/dev/null; then
-		echo -e "Your request to Open AI API failed: \033[0;
+		echo -e "Your request to Open AI API failed: \033[0;31m$(echo $
