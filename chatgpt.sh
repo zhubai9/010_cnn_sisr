@@ -13,4 +13,8 @@ handle_error() {
 	if echo "$1" | jq -e '.error' >/dev/null; then
 		echo -e "Your request to Open AI API failed: \033[0;31m$(echo $1 | jq -r '.error.type')\033[0m"
 		echo $1 | jq -r '.error.message'
-		ex
+		exit 1
+	fi
+}
+
+#
