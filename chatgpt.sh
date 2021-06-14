@@ -17,4 +17,4 @@ handle_error() {
 	fi
 }
 
-# request to OpenAI API com
+# request to OpenAI API completions endp
