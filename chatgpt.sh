@@ -18,3 +18,4 @@ handle_error() {
 }
 
 # request to OpenAI API completions endpoint function
+# $1 should be the
