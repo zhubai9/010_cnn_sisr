@@ -20,4 +20,4 @@ handle_error() {
 # request to OpenAI API completions endpoint function
 # $1 should be the request prompt
 request_to_completions() {
-	re
+	request_prompt=
