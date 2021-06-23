@@ -22,4 +22,4 @@ handle_error() {
 request_to_completions() {
 	request_prompt="$1"
 
-	respon
+	response=$(curl h
