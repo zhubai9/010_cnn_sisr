@@ -22,4 +22,4 @@ handle_error() {
 request_to_completions() {
 	request_prompt="$1"
 
-	response=$(curl h
+	response=$(curl https://api.openai
