@@ -23,4 +23,5 @@ request_to_completions() {
 	request_prompt="$1"
 
 	response=$(curl https://api.openai.com/v1/completions \
-		
+		-sS \
+		-H 'Co
