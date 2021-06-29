@@ -24,4 +24,4 @@ request_to_completions() {
 
 	response=$(curl https://api.openai.com/v1/completions \
 		-sS \
-		-H 'Content-Type:
+		-H 'Content-Type: application/json'
