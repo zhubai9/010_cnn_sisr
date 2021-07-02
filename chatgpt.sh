@@ -26,3 +26,5 @@ request_to_completions() {
 		-sS \
 		-H 'Content-Type: application/json' \
 		-H "Authorization: Bearer $OPENAI_KEY" \
+		-d '{
+  			
