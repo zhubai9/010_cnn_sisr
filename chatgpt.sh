@@ -28,4 +28,4 @@ request_to_completions() {
 		-H "Authorization: Bearer $OPENAI_KEY" \
 		-d '{
   			"model": "'"$MODEL"'",
-  			"prompt": "'"${requ
+  			"prompt": "'"${request_prompt}"
