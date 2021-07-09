@@ -29,4 +29,4 @@ request_to_completions() {
 		-d '{
   			"model": "'"$MODEL"'",
   			"prompt": "'"${request_prompt}"'",
-  			"max_
+  			"max_tokens": 
