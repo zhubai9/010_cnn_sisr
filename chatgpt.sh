@@ -30,4 +30,4 @@ request_to_completions() {
   			"model": "'"$MODEL"'",
   			"prompt": "'"${request_prompt}"'",
   			"max_tokens": '$MAX_TOKENS',
-  			"temperature":
+  			"temperature": '$TEMPERAT
