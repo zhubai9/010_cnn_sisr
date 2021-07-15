@@ -34,4 +34,4 @@ request_to_completions() {
 			}')
 }
 
-# request to
+# request to OpenAI API imag
