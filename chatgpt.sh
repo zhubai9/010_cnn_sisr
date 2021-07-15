@@ -33,3 +33,5 @@ request_to_completions() {
   			"temperature": '$TEMPERATURE'
 			}')
 }
+
+# request to
