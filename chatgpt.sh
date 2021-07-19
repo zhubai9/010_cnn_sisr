@@ -34,4 +34,4 @@ request_to_completions() {
 			}')
 }
 
-# request to OpenAI API image generatio
+# request to OpenAI API image generations endpoint funct
