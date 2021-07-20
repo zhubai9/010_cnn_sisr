@@ -35,4 +35,4 @@ request_to_completions() {
 }
 
 # request to OpenAI API image generations endpoint function
-# $1 s
+# $1 should be the promp
