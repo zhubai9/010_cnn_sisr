@@ -37,4 +37,5 @@ request_to_completions() {
 # request to OpenAI API image generations endpoint function
 # $1 should be the prompt
 request_to_image() {
-	prompt="$
+	prompt="$1"
+	image_respon
