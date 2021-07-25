@@ -38,4 +38,4 @@ request_to_completions() {
 # $1 should be the prompt
 request_to_image() {
 	prompt="$1"
-	image_response=$(curl ht
+	image_response=$(curl https://api.openai.co
