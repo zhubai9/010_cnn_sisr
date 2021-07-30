@@ -40,4 +40,5 @@ request_to_image() {
 	prompt="$1"
 	image_response=$(curl https://api.openai.com/v1/images/generations \
 		-sS \
-		-H 'Content-Type: application
+		-H 'Content-Type: application/json' \
+		-H 
