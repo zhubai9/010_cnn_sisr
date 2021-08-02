@@ -41,4 +41,4 @@ request_to_image() {
 	image_response=$(curl https://api.openai.com/v1/images/generations \
 		-sS \
 		-H 'Content-Type: application/json' \
-		-H 
+		-H "Authorization: 
