@@ -42,4 +42,5 @@ request_to_image() {
 		-sS \
 		-H 'Content-Type: application/json' \
 		-H "Authorization: Bearer $OPENAI_KEY" \
-		
+		-d '{
+    		"pro
