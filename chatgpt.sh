@@ -43,4 +43,4 @@ request_to_image() {
 		-H 'Content-Type: application/json' \
 		-H "Authorization: Bearer $OPENAI_KEY" \
 		-d '{
-    		"prompt": "'"${pro
+    		"prompt": "'"${prompt#*image:}"'
