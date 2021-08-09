@@ -46,3 +46,7 @@ request_to_image() {
     		"prompt": "'"${prompt#*image:}"'",
     		"n": 1,
     		"size": "'"$SIZE"'"
+			}')
+}
+
+# 
