@@ -45,4 +45,4 @@ request_to_image() {
 		-d '{
     		"prompt": "'"${prompt#*image:}"'",
     		"n": 1,
-    		"size": 
+    		"size": "'"$SIZE"'"
