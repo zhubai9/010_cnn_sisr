@@ -49,4 +49,4 @@ request_to_image() {
 			}')
 }
 
-# request to OpenAPI 
+# request to OpenAPI API chat co
