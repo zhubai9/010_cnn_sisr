@@ -49,4 +49,5 @@ request_to_image() {
 			}')
 }
 
-# request to OpenAPI API chat completion endp
+# request to OpenAPI API chat completion endpoint function
+# $1 
