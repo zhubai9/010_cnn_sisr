@@ -51,4 +51,4 @@ request_to_image() {
 
 # request to OpenAPI API chat completion endpoint function
 # $1 should be the message(s) formatted with role and content
-reques
+request_to_chat() {
