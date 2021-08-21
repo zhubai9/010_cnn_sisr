@@ -53,4 +53,4 @@ request_to_image() {
 # $1 should be the message(s) formatted with role and content
 request_to_chat() {
 	message="$1"
-	response=$(curl https:
+	response=$(curl https://api.openai
