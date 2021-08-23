@@ -55,4 +55,4 @@ request_to_chat() {
 	message="$1"
 	response=$(curl https://api.openai.com/v1/chat/completions \
 		-sS \
-		-H 'Content-Type: appli
+		-H 'Content-Type: application/json' \
