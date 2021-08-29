@@ -56,4 +56,5 @@ request_to_chat() {
 	response=$(curl https://api.openai.com/v1/chat/completions \
 		-sS \
 		-H 'Content-Type: application/json' \
-		-H "Authorization: Bearer $OPENAI_KE
+		-H "Authorization: Bearer $OPENAI_KEY" \
+		-d '{
