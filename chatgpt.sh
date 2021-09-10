@@ -58,4 +58,5 @@ request_to_chat() {
 		-H 'Content-Type: application/json' \
 		-H "Authorization: Bearer $OPENAI_KEY" \
 		-d '{
-            "model": "'"$M
+            "model": "'"$MODEL"'",
+      
