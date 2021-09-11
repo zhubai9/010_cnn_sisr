@@ -60,4 +60,4 @@ request_to_chat() {
 		-d '{
             "model": "'"$MODEL"'",
             "messages": [
-    
+                
