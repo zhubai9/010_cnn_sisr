@@ -59,4 +59,5 @@ request_to_chat() {
 		-H "Authorization: Bearer $OPENAI_KEY" \
 		-d '{
             "model": "'"$MODEL"'",
-            "mess
+            "messages": [
+    
