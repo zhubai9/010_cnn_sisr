@@ -61,4 +61,6 @@ request_to_chat() {
             "model": "'"$MODEL"'",
             "messages": [
                 {"role": "system", "content": "'"$SYSTEM_PROMPT"'"},
-                '"$messa
+                '"$message"'
+                ],
+   
