@@ -63,4 +63,5 @@ request_to_chat() {
                 {"role": "system", "content": "'"$SYSTEM_PROMPT"'"},
                 '"$message"'
                 ],
-            "max_tokens": '$MAX_T
+            "max_tokens": '$MAX_TOKENS',
+        
