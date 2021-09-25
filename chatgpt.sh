@@ -65,4 +65,4 @@ request_to_chat() {
                 ],
             "max_tokens": '$MAX_TOKENS',
             "temperature": '$TEMPERATURE'
- 
+            }'
