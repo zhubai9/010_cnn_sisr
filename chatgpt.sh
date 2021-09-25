@@ -64,4 +64,5 @@ request_to_chat() {
                 '"$message"'
                 ],
             "max_tokens": '$MAX_TOKENS',
-            "temperature": '$T
+            "temperature": '$TEMPERATURE'
+ 
