@@ -68,4 +68,4 @@ request_to_chat() {
             }')
 }
 
-# build chat 
+# build chat context b
