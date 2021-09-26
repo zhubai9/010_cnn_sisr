@@ -68,4 +68,4 @@ request_to_chat() {
             }')
 }
 
-# build chat context before each r
+# build chat context before each request for /comp
