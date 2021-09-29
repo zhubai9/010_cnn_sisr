@@ -68,4 +68,5 @@ request_to_chat() {
             }')
 }
 
-# build chat context before each request for /completions (all model
+# build chat context before each request for /completions (all models except
+# gpt turb
