@@ -70,4 +70,5 @@ request_to_chat() {
 
 # build chat context before each request for /completions (all models except
 # gpt turbo)
-# $1 should be 
+# $1 should be the chat context
+# 
