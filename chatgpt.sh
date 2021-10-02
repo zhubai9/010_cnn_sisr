@@ -71,4 +71,4 @@ request_to_chat() {
 # build chat context before each request for /completions (all models except
 # gpt turbo)
 # $1 should be the chat context
-# $2 should be
+# $2 should be the escaped
