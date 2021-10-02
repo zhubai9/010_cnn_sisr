@@ -73,4 +73,5 @@ request_to_chat() {
 # $1 should be the chat context
 # $2 should be the escaped prompt
 build_chat_context() {
-	chat_cont
+	chat_context="$1"
+	es
