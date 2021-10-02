@@ -72,4 +72,5 @@ request_to_chat() {
 # gpt turbo)
 # $1 should be the chat context
 # $2 should be the escaped prompt
-build
+build_chat_context() {
+	chat_cont
