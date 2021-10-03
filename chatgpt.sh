@@ -74,4 +74,5 @@ request_to_chat() {
 # $2 should be the escaped prompt
 build_chat_context() {
 	chat_context="$1"
-	es
+	escaped_prompt="$2"
+	
