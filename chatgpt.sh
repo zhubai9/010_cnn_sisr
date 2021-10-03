@@ -75,4 +75,4 @@ request_to_chat() {
 build_chat_context() {
 	chat_context="$1"
 	escaped_prompt="$2"
-	
+	if [ -z "$chat_co
