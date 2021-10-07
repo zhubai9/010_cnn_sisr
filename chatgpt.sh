@@ -77,4 +77,5 @@ build_chat_context() {
 	escaped_prompt="$2"
 	if [ -z "$chat_context" ]; then
 		chat_context="$CHAT_INIT_PROMPT\nQ: $escaped_prompt"
-	el
+	else
+		chat_c
