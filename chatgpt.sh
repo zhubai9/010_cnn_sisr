@@ -80,4 +80,4 @@ build_chat_context() {
 	else
 		chat_context="$chat_context\nQ: $escaped_prompt"
 	fi
-	request_prompt="${chat_conte
+	request_prompt="${chat_context//$'\n'/\
