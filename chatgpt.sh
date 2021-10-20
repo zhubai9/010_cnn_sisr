@@ -83,4 +83,4 @@ build_chat_context() {
 	request_prompt="${chat_context//$'\n'/\\n}"
 }
 
-# maintain chat co
+# maintain chat context functi
