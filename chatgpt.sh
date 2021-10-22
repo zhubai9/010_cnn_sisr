@@ -83,4 +83,4 @@ build_chat_context() {
 	request_prompt="${chat_context//$'\n'/\\n}"
 }
 
-# maintain chat context function for /completions (all mod
+# maintain chat context function for /completions (all models except g
