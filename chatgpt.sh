@@ -84,4 +84,4 @@ build_chat_context() {
 }
 
 # maintain chat context function for /completions (all models except gpt turbo)
-# builds chat 
+# builds chat context from respons
