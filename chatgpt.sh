@@ -85,4 +85,4 @@ build_chat_context() {
 
 # maintain chat context function for /completions (all models except gpt turbo)
 # builds chat context from response,
-# keeps chat context lengt
+# keeps chat context length under max t
