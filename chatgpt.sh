@@ -87,4 +87,4 @@ build_chat_context() {
 # builds chat context from response,
 # keeps chat context length under max token limit
 # $1 should be the chat context
-# $2 should be the res
+# $2 should be the response data (only the
