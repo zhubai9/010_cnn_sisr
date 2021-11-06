@@ -90,4 +90,5 @@ build_chat_context() {
 # $2 should be the response data (only the text)
 maintain_chat_context() {
 	chat_context="$1"
-	response_
+	response_data="$2"
+	# ad
