@@ -89,4 +89,4 @@ build_chat_context() {
 # $1 should be the chat context
 # $2 should be the response data (only the text)
 maintain_chat_context() {
-	c
+	chat_context=
