@@ -92,4 +92,4 @@ maintain_chat_context() {
 	chat_context="$1"
 	response_data="$2"
 	# add response to chat context as answer
-	chat
+	chat_context="$
