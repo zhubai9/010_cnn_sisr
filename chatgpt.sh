@@ -93,4 +93,5 @@ maintain_chat_context() {
 	response_data="$2"
 	# add response to chat context as answer
 	chat_context="$chat_context${chat_context:+\n}\nA: ${response_data//$'\n'/\\n}"
-	# check prompt length, 1 word 
+	# check prompt length, 1 word =~ 1.3 tokens
+	# r
