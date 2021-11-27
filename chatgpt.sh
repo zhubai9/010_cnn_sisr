@@ -95,4 +95,5 @@ maintain_chat_context() {
 	chat_context="$chat_context${chat_context:+\n}\nA: ${response_data//$'\n'/\\n}"
 	# check prompt length, 1 word =~ 1.3 tokens
 	# reserving 100 tokens for next user prompt
-	while (($(echo "$chat_context" | wc -c) * 1, 3 > (MAX_TOKENS - 100))); d
+	while (($(echo "$chat_context" | wc -c) * 1, 3 > (MAX_TOKENS - 100))); do
+		# re
