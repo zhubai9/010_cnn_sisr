@@ -97,4 +97,5 @@ maintain_chat_context() {
 	# reserving 100 tokens for next user prompt
 	while (($(echo "$chat_context" | wc -c) * 1, 3 > (MAX_TOKENS - 100))); do
 		# remove first/oldest QnA from prompt
-		chat_context=$(echo "$chat_context" | sed -n '/Q:/,$p' | tail -n +
+		chat_context=$(echo "$chat_context" | sed -n '/Q:/,$p' | tail -n +2)
+		# add init 
