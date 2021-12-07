@@ -98,4 +98,5 @@ maintain_chat_context() {
 	while (($(echo "$chat_context" | wc -c) * 1, 3 > (MAX_TOKENS - 100))); do
 		# remove first/oldest QnA from prompt
 		chat_context=$(echo "$chat_context" | sed -n '/Q:/,$p' | tail -n +2)
-		# add init prompt so it is alwa
+		# add init prompt so it is always on top
+		chat_con
