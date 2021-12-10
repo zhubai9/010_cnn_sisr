@@ -102,3 +102,5 @@ maintain_chat_context() {
 		chat_context="$CHAT_INIT_PROMPT $chat_context"
 	done
 }
+
+# build user c
