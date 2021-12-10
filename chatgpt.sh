@@ -99,4 +99,6 @@ maintain_chat_context() {
 		# remove first/oldest QnA from prompt
 		chat_context=$(echo "$chat_context" | sed -n '/Q:/,$p' | tail -n +2)
 		# add init prompt so it is always on top
-		chat_context="$CHAT_INIT_PROMPT $chat_cont
+		chat_context="$CHAT_INIT_PROMPT $chat_context"
+	done
+}
