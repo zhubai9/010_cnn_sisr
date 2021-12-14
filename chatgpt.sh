@@ -103,4 +103,4 @@ maintain_chat_context() {
 	done
 }
 
-# build user chat message function for /
+# build user chat message function for /chat/completions 
