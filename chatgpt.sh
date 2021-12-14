@@ -103,4 +103,5 @@ maintain_chat_context() {
 	done
 }
 
-# build user chat message function for /chat/completions 
+# build user chat message function for /chat/completions (gpt turbo model)
+#
