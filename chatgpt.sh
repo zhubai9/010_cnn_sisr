@@ -104,4 +104,4 @@ maintain_chat_context() {
 }
 
 # build user chat message function for /chat/completions (gpt turbo model)
-# builds chat me
+# builds chat message before req
