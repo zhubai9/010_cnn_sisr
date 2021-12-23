@@ -107,4 +107,5 @@ maintain_chat_context() {
 # builds chat message before request,
 # $1 should be the chat message
 # $2 should be the escaped prompt
-build_user_chat_message
+build_user_chat_message() {
+	chat_me
