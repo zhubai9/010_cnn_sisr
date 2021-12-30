@@ -109,4 +109,5 @@ maintain_chat_context() {
 # $2 should be the escaped prompt
 build_user_chat_message() {
 	chat_message="$1"
-	escaped_pro
+	escaped_prompt="$2"
+	if [
