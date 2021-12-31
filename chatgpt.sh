@@ -110,4 +110,4 @@ maintain_chat_context() {
 build_user_chat_message() {
 	chat_message="$1"
 	escaped_prompt="$2"
-	if [ -z "$chat
+	if [ -z "$chat_message" ]
