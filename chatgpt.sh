@@ -111,4 +111,6 @@ build_user_chat_message() {
 	chat_message="$1"
 	escaped_prompt="$2"
 	if [ -z "$chat_message" ]; then
-		chat_message="{\"role\": \"user\", \"content\": \"$escap
+		chat_message="{\"role\": \"user\", \"content\": \"$escaped_prompt\"}"
+	else
+		c
