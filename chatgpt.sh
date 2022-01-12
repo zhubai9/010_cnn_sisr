@@ -115,3 +115,5 @@ build_user_chat_message() {
 	else
 		chat_message="$chat_message, {\"role\": \"user\", \"content\": \"$escaped_prompt\"}"
 	fi
+
+	request_prom
