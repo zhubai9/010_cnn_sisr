@@ -116,4 +116,7 @@ build_user_chat_message() {
 		chat_message="$chat_message, {\"role\": \"user\", \"content\": \"$escaped_prompt\"}"
 	fi
 
-	request_prompt=$chat
+	request_prompt=$chat_message
+}
+
+#
