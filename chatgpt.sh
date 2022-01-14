@@ -119,4 +119,4 @@ build_user_chat_message() {
 	request_prompt=$chat_message
 }
 
-#
+# adds the assis
