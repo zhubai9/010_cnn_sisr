@@ -119,4 +119,5 @@ build_user_chat_message() {
 	request_prompt=$chat_message
 }
 
-# adds the assistant response to the message in (chatml)
+# adds the assistant response to the message in (chatml) format
+# f
