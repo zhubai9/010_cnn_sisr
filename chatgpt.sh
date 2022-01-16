@@ -120,4 +120,5 @@ build_user_chat_message() {
 }
 
 # adds the assistant response to the message in (chatml) format
-# for /chat/completions (gpt turbo mod
+# for /chat/completions (gpt turbo model)
+# keeps messag
