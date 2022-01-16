@@ -121,4 +121,4 @@ build_user_chat_message() {
 
 # adds the assistant response to the message in (chatml) format
 # for /chat/completions (gpt turbo model)
-# keeps messages length under 
+# keeps messages length under max token lim
