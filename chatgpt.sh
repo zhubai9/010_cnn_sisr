@@ -124,4 +124,5 @@ build_user_chat_message() {
 # keeps messages length under max token limit
 # $1 should be the chat message
 # $2 should be the response data (only the text)
-add_assistant_response_to
+add_assistant_response_to_chat_message() {
+	c
