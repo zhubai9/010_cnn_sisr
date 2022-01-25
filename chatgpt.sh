@@ -126,4 +126,6 @@ build_user_chat_message() {
 # $2 should be the response data (only the text)
 add_assistant_response_to_chat_message() {
 	chat_message="$1"
-	response_data="$2
+	response_data="$2"
+
+	# repla
