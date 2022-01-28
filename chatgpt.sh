@@ -128,4 +128,4 @@ add_assistant_response_to_chat_message() {
 	chat_message="$1"
 	response_data="$2"
 
-	# replace new line 
+	# replace new line characters from res
