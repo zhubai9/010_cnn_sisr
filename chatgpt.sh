@@ -130,4 +130,4 @@ add_assistant_response_to_chat_message() {
 
 	# replace new line characters from response with space
 	response_data=$(echo "$response_data" | tr '\n' ' ')
-	# ad
+	# add response to c
