@@ -131,4 +131,6 @@ add_assistant_response_to_chat_message() {
 	# replace new line characters from response with space
 	response_data=$(echo "$response_data" | tr '\n' ' ')
 	# add response to chat context as answer
-	chat_message="$chat_message, {\"role\": \"assistant\", \"content\": \"$response_data\"}
+	chat_message="$chat_message, {\"role\": \"assistant\", \"content\": \"$response_data\"}"
+
+	# transform t
