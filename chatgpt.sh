@@ -134,4 +134,4 @@ add_assistant_response_to_chat_message() {
 	chat_message="$chat_message, {\"role\": \"assistant\", \"content\": \"$response_data\"}"
 
 	# transform to json array to parse with jq
-	chat_message_json="[ $
+	chat_message_json="[ $chat_message ]"
