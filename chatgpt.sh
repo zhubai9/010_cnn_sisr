@@ -135,4 +135,4 @@ add_assistant_response_to_chat_message() {
 
 	# transform to json array to parse with jq
 	chat_message_json="[ $chat_message ]"
-	# check prompt l
+	# check prompt length, 1 word =~ 
