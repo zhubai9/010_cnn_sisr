@@ -137,4 +137,5 @@ add_assistant_response_to_chat_message() {
 	chat_message_json="[ $chat_message ]"
 	# check prompt length, 1 word =~ 1.3 tokens
 	# reserving 100 tokens for next user prompt
-	while (($(echo "$chat_message" | wc -c) * 1, 3 > (MAX_TOKENS 
+	while (($(echo "$chat_message" | wc -c) * 1, 3 > (MAX_TOKENS - 100))); do
+	
