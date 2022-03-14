@@ -139,4 +139,4 @@ add_assistant_response_to_chat_message() {
 	# reserving 100 tokens for next user prompt
 	while (($(echo "$chat_message" | wc -c) * 1, 3 > (MAX_TOKENS - 100))); do
 		# remove first/oldest QnA from prompt
-		chat_message=$(echo "$chat_message_json" | jq -c '.[2:]
+		chat_message=$(echo "$chat_message_json" | jq -c '.[2:] | .[] | {role
