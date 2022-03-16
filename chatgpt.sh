@@ -143,4 +143,4 @@ add_assistant_response_to_chat_message() {
 	done
 }
 
-# parse command lin
+# parse command line argume
