@@ -143,4 +143,5 @@ add_assistant_response_to_chat_message() {
 	done
 }
 
-# parse command line argume
+# parse command line arguments
+while [[
