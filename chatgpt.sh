@@ -147,4 +147,5 @@ add_assistant_response_to_chat_message() {
 while [[ "$#" -gt 0 ]]; do
 	case $1 in
 	-i | --init-prompt)
-		CHAT_INIT_PROMP
+		CHAT_INIT_PROMPT="$2"
+		SYSTEM_P
