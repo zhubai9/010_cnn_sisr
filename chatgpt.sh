@@ -146,4 +146,5 @@ add_assistant_response_to_chat_message() {
 # parse command line arguments
 while [[ "$#" -gt 0 ]]; do
 	case $1 in
-	-i | --init-p
+	-i | --init-prompt)
+		CHAT_INIT_PROMP
