@@ -148,4 +148,5 @@ while [[ "$#" -gt 0 ]]; do
 	case $1 in
 	-i | --init-prompt)
 		CHAT_INIT_PROMPT="$2"
-		SYSTEM_P
+		SYSTEM_PROMPT="$2"
+		CONTEX
