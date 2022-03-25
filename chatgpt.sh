@@ -150,4 +150,7 @@ while [[ "$#" -gt 0 ]]; do
 		CHAT_INIT_PROMPT="$2"
 		SYSTEM_PROMPT="$2"
 		CONTEXT=true
-		sh
+		shift
+		shift
+		;;
+	--init-
