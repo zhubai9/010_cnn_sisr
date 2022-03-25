@@ -149,4 +149,5 @@ while [[ "$#" -gt 0 ]]; do
 	-i | --init-prompt)
 		CHAT_INIT_PROMPT="$2"
 		SYSTEM_PROMPT="$2"
-		CONTEX
+		CONTEXT=true
+		sh
