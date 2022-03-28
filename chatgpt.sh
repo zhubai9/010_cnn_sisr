@@ -154,4 +154,5 @@ while [[ "$#" -gt 0 ]]; do
 		shift
 		;;
 	--init-prompt-from-file)
-		CHAT_INIT_PRO
+		CHAT_INIT_PROMPT=$(cat "$2")
+		S
