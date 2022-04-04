@@ -156,4 +156,6 @@ while [[ "$#" -gt 0 ]]; do
 	--init-prompt-from-file)
 		CHAT_INIT_PROMPT=$(cat "$2")
 		SYSTEM_PROMPT=$(cat "$2")
-		CONTEXT=tru
+		CONTEXT=true
+		shift
+		shif
