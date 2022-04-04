@@ -158,4 +158,6 @@ while [[ "$#" -gt 0 ]]; do
 		SYSTEM_PROMPT=$(cat "$2")
 		CONTEXT=true
 		shift
-		shif
+		shift
+		;;
+	-p | --pro
