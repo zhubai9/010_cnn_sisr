@@ -166,3 +166,4 @@ while [[ "$#" -gt 0 ]]; do
 		shift
 		;;
 	--prompt-from-file)
+		prompt=$(cat "$2"
