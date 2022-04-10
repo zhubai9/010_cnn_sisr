@@ -165,4 +165,4 @@ while [[ "$#" -gt 0 ]]; do
 		shift
 		shift
 		;;
-	--promp
+	--prompt-from-file)
