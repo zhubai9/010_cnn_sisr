@@ -163,4 +163,6 @@ while [[ "$#" -gt 0 ]]; do
 	-p | --prompt)
 		prompt="$2"
 		shift
-		shi
+		shift
+		;;
+	--promp
