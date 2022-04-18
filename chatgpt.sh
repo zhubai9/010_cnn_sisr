@@ -170,4 +170,5 @@ while [[ "$#" -gt 0 ]]; do
 		shift
 		shift
 		;;
-	-t | --temperatur
+	-t | --temperature)
+		TEMPERAT
