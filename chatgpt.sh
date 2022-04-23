@@ -172,3 +172,5 @@ while [[ "$#" -gt 0 ]]; do
 		;;
 	-t | --temperature)
 		TEMPERATURE="$2"
+		shift
+		shift
