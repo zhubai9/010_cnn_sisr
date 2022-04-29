@@ -174,3 +174,5 @@ while [[ "$#" -gt 0 ]]; do
 		TEMPERATURE="$2"
 		shift
 		shift
+		;;
+	--max-tok
