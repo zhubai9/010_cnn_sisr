@@ -176,4 +176,5 @@ while [[ "$#" -gt 0 ]]; do
 		shift
 		;;
 	--max-tokens)
-		MAX_TO
+		MAX_TOKENS="$2"
+		shif
