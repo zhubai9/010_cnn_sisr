@@ -180,4 +180,5 @@ while [[ "$#" -gt 0 ]]; do
 		shift
 		shift
 		;;
-	-m | --mo
+	-m | --model)
+		MODEL=
