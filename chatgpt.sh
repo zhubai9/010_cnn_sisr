@@ -179,4 +179,5 @@ while [[ "$#" -gt 0 ]]; do
 		MAX_TOKENS="$2"
 		shift
 		shift
-		
+		;;
+	-m | --mo
