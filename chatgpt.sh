@@ -177,4 +177,6 @@ while [[ "$#" -gt 0 ]]; do
 		;;
 	--max-tokens)
 		MAX_TOKENS="$2"
-		shif
+		shift
+		shift
+		
