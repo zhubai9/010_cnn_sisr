@@ -186,4 +186,5 @@ while [[ "$#" -gt 0 ]]; do
 		shift
 		;;
 	-s | --size)
-		SIZE=
+		SIZE="$2"
+		shift
