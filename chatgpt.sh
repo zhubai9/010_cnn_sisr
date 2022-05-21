@@ -190,4 +190,4 @@ while [[ "$#" -gt 0 ]]; do
 		shift
 		shift
 		;;
-	
+	-c | --c
