@@ -192,3 +192,6 @@ while [[ "$#" -gt 0 ]]; do
 		;;
 	-c | --chat-context)
 		CONTEXT=true
+		shift
+		;;
+	-cc
