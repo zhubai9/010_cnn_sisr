@@ -194,4 +194,4 @@ while [[ "$#" -gt 0 ]]; do
 		CONTEXT=true
 		shift
 		;;
-	-cc
+	-cc | --chat-
