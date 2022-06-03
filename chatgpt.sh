@@ -195,4 +195,4 @@ while [[ "$#" -gt 0 ]]; do
 		shift
 		;;
 	-cc | --chat-completion)
-	
+		MODEL="gpt-3.5-
