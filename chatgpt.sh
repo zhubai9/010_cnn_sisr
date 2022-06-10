@@ -198,3 +198,6 @@ while [[ "$#" -gt 0 ]]; do
 		MODEL="gpt-3.5-turbo"
 		CHAT_COMPLETION=true
 		shift
+		;;
+	*)
+		
