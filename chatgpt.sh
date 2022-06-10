@@ -196,4 +196,5 @@ while [[ "$#" -gt 0 ]]; do
 		;;
 	-cc | --chat-completion)
 		MODEL="gpt-3.5-turbo"
-		CHAT_COMPLET
+		CHAT_COMPLETION=true
+		shift
