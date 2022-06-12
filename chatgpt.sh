@@ -200,4 +200,6 @@ while [[ "$#" -gt 0 ]]; do
 		shift
 		;;
 	*)
-		echo "Unknown parameter: $
+		echo "Unknown parameter: $1"
+		exit 1
+		;
