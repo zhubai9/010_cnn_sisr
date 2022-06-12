@@ -202,4 +202,7 @@ while [[ "$#" -gt 0 ]]; do
 	*)
 		echo "Unknown parameter: $1"
 		exit 1
-		;
+		;;
+	esac
+done
+
