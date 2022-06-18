@@ -206,3 +206,5 @@ while [[ "$#" -gt 0 ]]; do
 	esac
 done
 
+# set defaults
+TEMPE
