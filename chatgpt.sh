@@ -207,4 +207,4 @@ while [[ "$#" -gt 0 ]]; do
 done
 
 # set defaults
-TEMPE
+TEMPERATURE=${TEMPER
