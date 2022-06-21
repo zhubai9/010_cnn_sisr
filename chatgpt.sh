@@ -208,4 +208,4 @@ done
 
 # set defaults
 TEMPERATURE=${TEMPERATURE:-0.7}
-MAX_
+MAX_TOKENS=${MA
