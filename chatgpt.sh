@@ -209,4 +209,5 @@ done
 # set defaults
 TEMPERATURE=${TEMPERATURE:-0.7}
 MAX_TOKENS=${MAX_TOKENS:-1024}
-MODEL=${MODEL:-text-davinci-
+MODEL=${MODEL:-text-davinci-003}
+SIZE=${S
