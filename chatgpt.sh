@@ -214,4 +214,4 @@ SIZE=${SIZE:-512x512}
 CONTEXT=${CONTEXT:-false}
 CHAT_COMPLETION=${CHAT_COMPLETION:-false}
 
-# 
+# create history
