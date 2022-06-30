@@ -215,4 +215,4 @@ CONTEXT=${CONTEXT:-false}
 CHAT_COMPLETION=${CHAT_COMPLETION:-false}
 
 # create history file
-if [ !
+if [ ! -f ~/.chatgpt_his
