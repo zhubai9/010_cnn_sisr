@@ -217,4 +217,4 @@ CHAT_COMPLETION=${CHAT_COMPLETION:-false}
 # create history file
 if [ ! -f ~/.chatgpt_history ]; then
 	touch ~/.chatgpt_history
-	c
+	chmod a+rw ~/.chatg
