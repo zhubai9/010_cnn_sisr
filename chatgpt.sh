@@ -220,4 +220,5 @@ if [ ! -f ~/.chatgpt_history ]; then
 	chmod a+rw ~/.chatgpt_history
 fi
 
-runnin
+running=true
+# check
