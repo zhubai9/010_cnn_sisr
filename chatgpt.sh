@@ -221,4 +221,5 @@ if [ ! -f ~/.chatgpt_history ]; then
 fi
 
 running=true
-# check
+# check input source
+# if p
