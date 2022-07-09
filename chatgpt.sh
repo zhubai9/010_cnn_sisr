@@ -222,4 +222,4 @@ fi
 
 running=true
 # check input source
-# if prompt already ent
+# if prompt already entered, run on p
