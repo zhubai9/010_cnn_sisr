@@ -222,4 +222,4 @@ fi
 
 running=true
 # check input source
-# if prompt already entered, run on p
+# if prompt already entered, run on pipe mode (run
