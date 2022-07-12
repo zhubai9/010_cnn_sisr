@@ -223,4 +223,5 @@ fi
 running=true
 # check input source
 # if prompt already entered, run on pipe mode (run once, no chat)
-# promp
+# prompt from pipe
+if 
