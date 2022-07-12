@@ -224,4 +224,4 @@ running=true
 # check input source
 # if prompt already entered, run on pipe mode (run once, no chat)
 # prompt from pipe
-if 
+if [ -p /dev/std
