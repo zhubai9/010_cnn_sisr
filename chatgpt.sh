@@ -225,4 +225,5 @@ running=true
 # if prompt already entered, run on pipe mode (run once, no chat)
 # prompt from pipe
 if [ -p /dev/stdin ]; then
-	pipe_mode_prom
+	pipe_mode_prompt+=$(cat -)
+# pro
