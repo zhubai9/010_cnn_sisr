@@ -226,4 +226,4 @@ running=true
 # prompt from pipe
 if [ -p /dev/stdin ]; then
 	pipe_mode_prompt+=$(cat -)
-# pro
+# prompt from argu
