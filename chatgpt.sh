@@ -226,4 +226,5 @@ running=true
 # prompt from pipe
 if [ -p /dev/stdin ]; then
 	pipe_mode_prompt+=$(cat -)
-# prompt from argu
+# prompt from argument
+elif [ -n
