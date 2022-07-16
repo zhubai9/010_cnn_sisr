@@ -227,4 +227,4 @@ running=true
 if [ -p /dev/stdin ]; then
 	pipe_mode_prompt+=$(cat -)
 # prompt from argument
-elif [ -n "$
+elif [ -n "$prompt" ]; then
