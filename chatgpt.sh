@@ -228,3 +228,4 @@ if [ -p /dev/stdin ]; then
 	pipe_mode_prompt+=$(cat -)
 # prompt from argument
 elif [ -n "$prompt" ]; then
+	pipe_mod
