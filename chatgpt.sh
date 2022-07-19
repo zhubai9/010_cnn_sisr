@@ -230,4 +230,4 @@ if [ -p /dev/stdin ]; then
 elif [ -n "$prompt" ]; then
 	pipe_mode_prompt=${prompt}
 else
-	echo -e "We
+	echo -e "Welcome to chatgpt.
