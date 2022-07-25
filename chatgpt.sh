@@ -230,4 +230,4 @@ if [ -p /dev/stdin ]; then
 elif [ -n "$prompt" ]; then
 	pipe_mode_prompt=${prompt}
 else
-	echo -e "Welcome to chatgpt. You can quit with '\033[36
+	echo -e "Welcome to chatgpt. You can quit with '\033[36mexit\033[0m'.
