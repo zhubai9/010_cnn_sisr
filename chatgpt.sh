@@ -235,4 +235,4 @@ fi
 
 while $running; do
 
-	if [ -z
+	if [ -z "$pipe_mode_prom
