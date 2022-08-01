@@ -233,4 +233,6 @@ else
 	echo -e "Welcome to chatgpt. You can quit with '\033[36mexit\033[0m'."
 fi
 
-while $run
+while $running; do
+
+	if [ -z
