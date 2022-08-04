@@ -235,4 +235,5 @@ fi
 
 while $running; do
 
-	if [ -z "$pipe_mode_prompt" ]; 
+	if [ -z "$pipe_mode_prompt" ]; then
+		echo 
