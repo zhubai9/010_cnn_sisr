@@ -236,4 +236,4 @@ fi
 while $running; do
 
 	if [ -z "$pipe_mode_prompt" ]; then
-		echo 
+		echo -e "\nEnter a
