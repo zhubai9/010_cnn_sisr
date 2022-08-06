@@ -240,4 +240,5 @@ while $running; do
 		read -e prompt
 	else
 		# set vars for pipe mode
-		prompt=${pipe_mo
+		prompt=${pipe_mode_prompt}
+	
