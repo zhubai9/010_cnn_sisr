@@ -241,4 +241,4 @@ while $running; do
 	else
 		# set vars for pipe mode
 		prompt=${pipe_mode_prompt}
-	
+		running=false
