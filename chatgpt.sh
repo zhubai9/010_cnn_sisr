@@ -239,4 +239,5 @@ while $running; do
 		echo -e "\nEnter a prompt:"
 		read -e prompt
 	else
-		# set vars
+		# set vars for pipe mode
+	
