@@ -243,4 +243,6 @@ while $running; do
 		prompt=${pipe_mode_prompt}
 		running=false
 		CHATGPT_CYAN_LABEL=""
-	f
+	fi
+
+	if [ "$pro
