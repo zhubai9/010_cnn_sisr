@@ -245,4 +245,4 @@ while $running; do
 		CHATGPT_CYAN_LABEL=""
 	fi
 
-	if [ "$pro
+	if [ "$prompt" == "exit"
