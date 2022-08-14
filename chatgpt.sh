@@ -246,4 +246,5 @@ while $running; do
 	fi
 
 	if [ "$prompt" == "exit" ]; then
-		r
+		running=false
+	elif
