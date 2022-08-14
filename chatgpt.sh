@@ -247,4 +247,4 @@ while $running; do
 
 	if [ "$prompt" == "exit" ]; then
 		running=false
-	elif [[ "$prompt" 
+	elif [[ "$prompt" =~ ^image: ]]; then
