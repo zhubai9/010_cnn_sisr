@@ -248,3 +248,4 @@ while $running; do
 	if [ "$prompt" == "exit" ]; then
 		running=false
 	elif [[ "$prompt" =~ ^image: ]]; then
+		request_to_image 
