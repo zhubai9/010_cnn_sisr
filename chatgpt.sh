@@ -249,4 +249,4 @@ while $running; do
 		running=false
 	elif [[ "$prompt" =~ ^image: ]]; then
 		request_to_image "$prompt"
-		handl
+		handle_error "$ima
