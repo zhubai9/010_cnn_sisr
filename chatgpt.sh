@@ -250,4 +250,5 @@ while $running; do
 	elif [[ "$prompt" =~ ^image: ]]; then
 		request_to_image "$prompt"
 		handle_error "$image_response"
-		image_url=$(echo $image_response | jq -r '
+		image_url=$(echo $image_response | jq -r '.data[0].url')
+		ec
