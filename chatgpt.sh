@@ -250,4 +250,4 @@ while $running; do
 	elif [[ "$prompt" =~ ^image: ]]; then
 		request_to_image "$prompt"
 		handle_error "$image_response"
-		image_url=$(ec
+		image_url=$(echo $image_respon
