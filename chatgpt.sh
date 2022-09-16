@@ -253,4 +253,4 @@ while $running; do
 		image_url=$(echo $image_response | jq -r '.data[0].url')
 		echo -e "${CHATGPT_CYAN_LABEL}Your image was created. \n\nLink: ${image_url}\n"
 
-		if [[
+		if [[ "$TERM_PROGRAM"
