@@ -254,3 +254,4 @@ while $running; do
 		echo -e "${CHATGPT_CYAN_LABEL}Your image was created. \n\nLink: ${image_url}\n"
 
 		if [[ "$TERM_PROGRAM" == "iTerm.app" ]]; then
+			curl -sS $
