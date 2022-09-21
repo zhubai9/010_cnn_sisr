@@ -256,4 +256,5 @@ while $running; do
 		if [[ "$TERM_PROGRAM" == "iTerm.app" ]]; then
 			curl -sS $image_url -o temp_image.png
 			imgcat temp_image.png
-			rm temp_ima
+			rm temp_image.png
+		e
