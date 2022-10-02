@@ -258,4 +258,5 @@ while $running; do
 			imgcat temp_image.png
 			rm temp_image.png
 		else
-			echo "Would you like to op
+			echo "Would you like to open it? (Yes/No)"
+		
