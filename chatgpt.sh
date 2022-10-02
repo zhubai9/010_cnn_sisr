@@ -258,4 +258,4 @@ while $running; do
 			imgcat temp_image.png
 			rm temp_image.png
 		else
-			ech
+			echo "Would you l
