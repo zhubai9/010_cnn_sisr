@@ -257,4 +257,5 @@ while $running; do
 			curl -sS $image_url -o temp_image.png
 			imgcat temp_image.png
 			rm temp_image.png
-		e
+		else
+			ech
