@@ -259,4 +259,4 @@ while $running; do
 			rm temp_image.png
 		else
 			echo "Would you like to open it? (Yes/No)"
-		
+			read -e answe
