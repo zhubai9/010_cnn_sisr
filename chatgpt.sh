@@ -260,4 +260,4 @@ while $running; do
 		else
 			echo "Would you like to open it? (Yes/No)"
 			read -e answer
-			if [ "$answer" == 
+			if [ "$answer" == "Yes" ] |
