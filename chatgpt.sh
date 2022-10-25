@@ -260,4 +260,5 @@ while $running; do
 		else
 			echo "Would you like to open it? (Yes/No)"
 			read -e answer
-			if [ "$answer" == "Yes" ] || [ "$answer" == "yes" ] || [ "$answer" == "y" ] || [ "$answer" == "Y" ] || [ "$answer" == "ok" ]; the
+			if [ "$answer" == "Yes" ] || [ "$answer" == "yes" ] || [ "$answer" == "y" ] || [ "$answer" == "Y" ] || [ "$answer" == "ok" ]; then
+				open "${
