@@ -262,3 +262,5 @@ while $running; do
 			read -e answer
 			if [ "$answer" == "Yes" ] || [ "$answer" == "yes" ] || [ "$answer" == "y" ] || [ "$answer" == "Y" ] || [ "$answer" == "ok" ]; then
 				open "${image_url}"
+			fi
+		fi
