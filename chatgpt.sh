@@ -264,4 +264,5 @@ while $running; do
 				open "${image_url}"
 			fi
 		fi
-	elif [[ "$prompt" == "histo
+	elif [[ "$prompt" == "history" ]]; then
+		
