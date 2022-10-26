@@ -264,3 +264,4 @@ while $running; do
 				open "${image_url}"
 			fi
 		fi
+	elif [[ "
