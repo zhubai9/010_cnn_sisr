@@ -265,4 +265,4 @@ while $running; do
 			fi
 		fi
 	elif [[ "$prompt" == "history" ]]; then
-		
+		echo -e "\n$(cat
