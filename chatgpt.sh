@@ -266,4 +266,4 @@ while $running; do
 		fi
 	elif [[ "$prompt" == "history" ]]; then
 		echo -e "\n$(cat ~/.chatgpt_history)"
-	elif [[ "$prompt
+	elif [[ "$prompt" == "models" ]]
