@@ -269,3 +269,4 @@ while $running; do
 	elif [[ "$prompt" == "models" ]]; then
 		models_response=$(curl https://api.openai.com/v1/models \
 			-sS \
+			-H "Autho
