@@ -267,4 +267,4 @@ while $running; do
 	elif [[ "$prompt" == "history" ]]; then
 		echo -e "\n$(cat ~/.chatgpt_history)"
 	elif [[ "$prompt" == "models" ]]; then
-		models_response=$(curl https://api.open
+		models_response=$(curl https://api.openai.com/v1/mod
