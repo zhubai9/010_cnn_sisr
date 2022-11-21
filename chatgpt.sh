@@ -271,4 +271,5 @@ while $running; do
 			-sS \
 			-H "Authorization: Bearer $OPENAI_KEY")
 		handle_error "$models_response"
-		models_data=$(echo $models_response | jq -r -C '.data[] | {id, owned_by, 
+		models_data=$(echo $models_response | jq -r -C '.data[] | {id, owned_by, created}')
+		echo 
