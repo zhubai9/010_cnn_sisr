@@ -272,4 +272,4 @@ while $running; do
 			-H "Authorization: Bearer $OPENAI_KEY")
 		handle_error "$models_response"
 		models_data=$(echo $models_response | jq -r -C '.data[] | {id, owned_by, created}')
-		echo -e "${CHATGPT_CYAN_LABEL}This is a list of models currently available at
+		echo -e "${CHATGPT_CYAN_LABEL}This is a list of models currently available at OpenAI API
