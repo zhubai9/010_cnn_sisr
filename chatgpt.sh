@@ -273,4 +273,4 @@ while $running; do
 		handle_error "$models_response"
 		models_data=$(echo $models_response | jq -r -C '.data[] | {id, owned_by, created}')
 		echo -e "${CHATGPT_CYAN_LABEL}This is a list of models currently available at OpenAI API:\n ${models_data}"
-	elif [[ "$prompt" =
+	elif [[ "$prompt" =~ ^model: ]];
