@@ -277,4 +277,5 @@ while $running; do
 		models_response=$(curl https://api.openai.com/v1/models \
 			-sS \
 			-H "Authorization: Bearer $OPENAI_KEY")
-		handle_error "$models_re
+		handle_error "$models_response"
+		model_data
