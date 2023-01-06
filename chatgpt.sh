@@ -278,4 +278,4 @@ while $running; do
 			-sS \
 			-H "Authorization: Bearer $OPENAI_KEY")
 		handle_error "$models_response"
-		model_data
+		model_data=$(echo $models_r
