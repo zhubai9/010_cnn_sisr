@@ -278,4 +278,4 @@ while $running; do
 			-sS \
 			-H "Authorization: Bearer $OPENAI_KEY")
 		handle_error "$models_response"
-		model_data=$(echo $models_response | jq -r -C
+		model_data=$(echo $models_response | jq -r -C '.data[] | sel
