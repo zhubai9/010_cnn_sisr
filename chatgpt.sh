@@ -282,4 +282,4 @@ while $running; do
 		echo -e "${CHATGPT_CYAN_LABEL}Complete details for model: ${prompt#*model:}\n ${model_data}"
 	elif [[ "$CHAT_COMPLETION" = true ]]; then
 		# escape quotation marks
-		escaped
+		escaped_prompt=$(echo
