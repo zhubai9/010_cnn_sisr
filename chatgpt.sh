@@ -281,4 +281,5 @@ while $running; do
 		model_data=$(echo $models_response | jq -r -C '.data[] | select(.id=="'"${prompt#*model:}"'")')
 		echo -e "${CHATGPT_CYAN_LABEL}Complete details for model: ${prompt#*model:}\n ${model_data}"
 	elif [[ "$CHAT_COMPLETION" = true ]]; then
-		# escape quotati
+		# escape quotation marks
+		escaped
