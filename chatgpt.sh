@@ -283,3 +283,4 @@ while $running; do
 	elif [[ "$CHAT_COMPLETION" = true ]]; then
 		# escape quotation marks
 		escaped_prompt=$(echo "$prompt" | sed 's/"/\\"/g')
+		# escape ne
