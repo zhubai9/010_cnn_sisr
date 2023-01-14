@@ -284,4 +284,4 @@ while $running; do
 		# escape quotation marks
 		escaped_prompt=$(echo "$prompt" | sed 's/"/\\"/g')
 		# escape new lines
-		req
+		request_prompt
