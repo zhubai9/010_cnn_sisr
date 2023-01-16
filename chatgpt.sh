@@ -286,3 +286,4 @@ while $running; do
 		# escape new lines
 		request_prompt=${escaped_prompt//$'\n'/' '}
 
+		build_user_chat_me
