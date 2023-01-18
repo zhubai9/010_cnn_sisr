@@ -287,4 +287,4 @@ while $running; do
 		request_prompt=${escaped_prompt//$'\n'/' '}
 
 		build_user_chat_message "$chat_message" "$request_prompt"
-		request
+		request_to_chat "$request_pr
