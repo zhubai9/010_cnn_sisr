@@ -289,4 +289,4 @@ while $running; do
 		build_user_chat_message "$chat_message" "$request_prompt"
 		request_to_chat "$request_prompt"
 		handle_error "$response"
-		respon
+		response_data=$
