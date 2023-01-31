@@ -291,4 +291,4 @@ while $running; do
 		handle_error "$response"
 		response_data=$(echo "$response" | jq -r '.choices[].message.content')
 
-		ec
+		echo -e "${CHATGPT_CYA
