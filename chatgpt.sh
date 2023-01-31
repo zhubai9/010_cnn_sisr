@@ -289,4 +289,6 @@ while $running; do
 		build_user_chat_message "$chat_message" "$request_prompt"
 		request_to_chat "$request_prompt"
 		handle_error "$response"
-		response_data=$(echo "$response" | jq -r '.choices[].message.content
+		response_data=$(echo "$response" | jq -r '.choices[].message.content')
+
+		ec
