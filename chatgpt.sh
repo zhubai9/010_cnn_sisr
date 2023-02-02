@@ -293,4 +293,4 @@ while $running; do
 
 		echo -e "${CHATGPT_CYAN_LABEL}${response_data}"
 
-		res
+		response_data=$(echo "$
