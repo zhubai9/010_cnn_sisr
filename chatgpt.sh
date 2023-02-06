@@ -294,4 +294,6 @@ while $running; do
 		echo -e "${CHATGPT_CYAN_LABEL}${response_data}"
 
 		response_data=$(echo "$response_data" | sed 's/"/\\"/g')
-		add_assistant_response_to_chat_message "$chat_message" 
+		add_assistant_response_to_chat_message "$chat_message" "$response_data"
+
+		
