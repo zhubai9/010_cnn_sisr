@@ -297,4 +297,4 @@ while $running; do
 		add_assistant_response_to_chat_message "$chat_message" "$response_data"
 
 		timestamp=$(date +"%d/%m/%Y %H:%M")
-		echo -e "$timestamp $pro
+		echo -e "$timestamp $prompt \n$respo
