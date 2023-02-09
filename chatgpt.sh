@@ -297,4 +297,5 @@ while $running; do
 		add_assistant_response_to_chat_message "$chat_message" "$response_data"
 
 		timestamp=$(date +"%d/%m/%Y %H:%M")
-		echo -e "$timestamp $prompt \n$response_data \n" >>~/.chatg
+		echo -e "$timestamp $prompt \n$response_data \n" >>~/.chatgpt_history
+	e
