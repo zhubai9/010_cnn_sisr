@@ -299,4 +299,4 @@ while $running; do
 		timestamp=$(date +"%d/%m/%Y %H:%M")
 		echo -e "$timestamp $prompt \n$response_data \n" >>~/.chatgpt_history
 	else
-		# esc
+		# escape quotation marks
