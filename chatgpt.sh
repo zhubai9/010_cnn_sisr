@@ -300,4 +300,4 @@ while $running; do
 		echo -e "$timestamp $prompt \n$response_data \n" >>~/.chatgpt_history
 	else
 		# escape quotation marks
-		escaped_prompt=$(echo "$pro
+		escaped_prompt=$(echo "$prompt" | sed '
