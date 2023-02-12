@@ -301,4 +301,5 @@ while $running; do
 	else
 		# escape quotation marks
 		escaped_prompt=$(echo "$prompt" | sed 's/"/\\"/g')
-		# escape
+		# escape new lines
+		reque
