@@ -304,4 +304,5 @@ while $running; do
 		# escape new lines
 		request_prompt=${escaped_prompt//$'\n'/' '}
 
-		if [ "$CONTEXT" = tru
+		if [ "$CONTEXT" = true ]; then
+			b
