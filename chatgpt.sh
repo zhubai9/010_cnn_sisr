@@ -305,4 +305,4 @@ while $running; do
 		request_prompt=${escaped_prompt//$'\n'/' '}
 
 		if [ "$CONTEXT" = true ]; then
-			b
+			build_chat_c
