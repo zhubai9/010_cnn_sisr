@@ -305,4 +305,4 @@ while $running; do
 		request_prompt=${escaped_prompt//$'\n'/' '}
 
 		if [ "$CONTEXT" = true ]; then
-			build_chat_context "$chat_
+			build_chat_context "$chat_context" "
