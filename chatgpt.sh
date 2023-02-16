@@ -308,4 +308,4 @@ while $running; do
 			build_chat_context "$chat_context" "$escaped_prompt"
 		fi
 
-		re
+		request_to_comp
