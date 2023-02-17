@@ -309,4 +309,5 @@ while $running; do
 		fi
 
 		request_to_completions "$request_prompt"
-		handle_error "$resp
+		handle_error "$response"
+		response_d
