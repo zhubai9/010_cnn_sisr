@@ -310,4 +310,4 @@ while $running; do
 
 		request_to_completions "$request_prompt"
 		handle_error "$response"
-		response_data=$(echo "$resp
+		response_data=$(echo "$response" | jq -
