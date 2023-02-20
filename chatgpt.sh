@@ -310,4 +310,5 @@ while $running; do
 
 		request_to_completions "$request_prompt"
 		handle_error "$response"
-		response_data=$(echo "$response" | jq -r '.choices[].text' | sed '1,2d; s/^A://g
+		response_data=$(echo "$response" | jq -r '.choices[].text' | sed '1,2d; s/^A://g')
+		echo -
