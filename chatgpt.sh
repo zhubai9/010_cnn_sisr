@@ -313,4 +313,5 @@ while $running; do
 		response_data=$(echo "$response" | jq -r '.choices[].text' | sed '1,2d; s/^A://g')
 		echo -e "${CHATGPT_CYAN_LABEL}${response_data}"
 
-		if [ "$CONTEXT" = true
+		if [ "$CONTEXT" = true ]; then
+			escape
