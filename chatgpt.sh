@@ -314,4 +314,4 @@ while $running; do
 		echo -e "${CHATGPT_CYAN_LABEL}${response_data}"
 
 		if [ "$CONTEXT" = true ]; then
-			escape
+			escaped_response_data=$
