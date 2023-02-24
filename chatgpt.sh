@@ -315,4 +315,4 @@ while $running; do
 
 		if [ "$CONTEXT" = true ]; then
 			escaped_response_data=$(echo "$response_data" | sed 's/"/\\"/g')
-			maintain_chat_
+			maintain_chat_context "$
