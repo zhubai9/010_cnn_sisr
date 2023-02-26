@@ -318,4 +318,5 @@ while $running; do
 			maintain_chat_context "$chat_context" "$escaped_response_data"
 		fi
 
-		timestamp=$(date +"%d/%m/%Y 
+		timestamp=$(date +"%d/%m/%Y %H:%M")
+		echo
