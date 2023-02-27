@@ -319,4 +319,4 @@ while $running; do
 		fi
 
 		timestamp=$(date +"%d/%m/%Y %H:%M")
-		echo -e "$timest
+		echo -e "$timestamp $prompt
