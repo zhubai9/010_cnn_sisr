@@ -319,4 +319,4 @@ while $running; do
 		fi
 
 		timestamp=$(date +"%d/%m/%Y %H:%M")
-		echo -e "$timestamp $prompt
+		echo -e "$timestamp $prompt \n$escaped_respo
