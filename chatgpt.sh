@@ -319,4 +319,6 @@ while $running; do
 		fi
 
 		timestamp=$(date +"%d/%m/%Y %H:%M")
-		echo -e "$timestamp $prompt \n$escaped_response_data \n" >>~/.chatg
+		echo -e "$timestamp $prompt \n$escaped_response_data \n" >>~/.chatgpt_history
+	fi
+d
