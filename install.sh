@@ -20,3 +20,13 @@ else
 fi
 
 # Installing imgcat if using iTerm
+if [[ "$TERM_PROGRAM" == "iTerm.app" ]]; then
+  if [[ ! $(which imgcat) ]]; then
+    curl -sS https://iterm2.com/utilities/imgcat -o /usr/local/bin/imgcat
+    chmod +x /usr/local/bin/imgcat
+    echo "Installed imgcat"
+  fi
+fi
+
+# Installing chatgpt script
+curl -sS https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/main/chatgpt.sh -o /usr/local/bin/chatgpt
