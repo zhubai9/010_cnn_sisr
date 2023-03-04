@@ -57,3 +57,10 @@ elif [ -f ~/.bash_profile ]; then
 elif [ -f ~/.profile ]; then
   echo "export OPENAI_KEY=$key" >>~/.profile
   echo 'export PATH=$PATH:/usr/local/bin' >>~/.profile
+  echo "OpenAI key and chatgpt path added to ~/.profile"
+  source ~/.profile
+else
+  export OPENAI_KEY=$key
+  echo "You need to add this to your shell profile: export OPENAI_KEY=$key"
+fi
+echo "Installation complete"
