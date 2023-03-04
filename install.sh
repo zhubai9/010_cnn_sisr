@@ -44,3 +44,16 @@ read -p "Please enter your OpenAI API key: " key
 # zsh profile
 if [ -f ~/.zprofile ]; then
   echo "export OPENAI_KEY=$key" >>~/.zprofile
+  echo 'export PATH=$PATH:/usr/local/bin' >>~/.zprofile
+  echo "OpenAI key and chatgpt path added to ~/.zprofile"
+  source ~/.zprofile
+# bash profile mac
+elif [ -f ~/.bash_profile ]; then
+  echo "export OPENAI_KEY=$key" >>~/.bash_profile
+  echo 'export PATH=$PATH:/usr/local/bin' >>~/.bash_profile
+  echo "OpenAI key and chatgpt path added to ~/.bash_profile"
+  source ~/.bash_profile
+# profile ubuntu
+elif [ -f ~/.profile ]; then
+  echo "export OPENAI_KEY=$key" >>~/.profile
+  echo 'export PATH=$PATH:/usr/local/bin' >>~/.profile
